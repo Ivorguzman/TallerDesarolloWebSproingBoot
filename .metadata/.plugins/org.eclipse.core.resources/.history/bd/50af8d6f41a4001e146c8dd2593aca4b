@@ -1,0 +1,30 @@
+package com.sprinBoot.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller// Indicamos esta clase como controlador
+@RequestMapping("/")// Carga la clase con localhost:8080
+public class MetodosController {
+
+
+	// método 1 con @RequestMapping(.....)
+	// Path a nivel de metodo
+	@RequestMapping(value = "/metodo1", method = RequestMethod.GET) // Indicando ruta y tipo de metedo
+	public String Metodo1() {
+		return null;
+	}
+
+
+	// método 2 con @GetMapping(...)
+	// @RequestMapping(value = "/metodo1", method = RequestMethod.GET) // Indicando ruta y tipo de metedo
+	@GetMapping("/metodo2")
+	public ModelAndView Metodo2() {
+		return new ModelAndView("vista2"); //devuelve  tanto model como vista con unico valor de retorno
+		
+	}
+
+}

@@ -1,0 +1,33 @@
+package com.simulacionBaseDatos.controller;
+
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import model.Persona;
+
+
+
+@Controller
+@RequestMapping("/")
+public class MetodosController {
+
+
+
+	private String a = "Ivor Alexander";
+	private int b = 12345678;
+
+	Persona persona1 = new Persona(this.a, this.b);
+
+	@GetMapping("/persona") //
+	public String Persona(Model persona) {
+
+		persona.addAttribute("nombre", this.a);
+		persona.addAttribute("telefono", this.b);
+		return "persona";
+
+	}
+
+}

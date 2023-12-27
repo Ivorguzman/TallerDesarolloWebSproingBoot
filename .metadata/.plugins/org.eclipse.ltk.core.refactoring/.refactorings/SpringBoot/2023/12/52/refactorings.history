@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SpringBoot/src/main/resources/templates/vista5.html&apos; to &apos;vista3.html&apos;" description="Rename resource &apos;vista5.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/templates/vista5.html" name="vista3.html" stamp="1703635916583" updateReferences="true"/>
+</session>

@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+G:\c_programacion\c__back_end\talleres_aprendizaje_java\esp_trabajo_curso02_APIREST_con_SpringBoot\.metadata\.plugins\org.eclipse.jdt.core
+2509210843.index
+330364171.index
+1865797976.index
+1127980387.index

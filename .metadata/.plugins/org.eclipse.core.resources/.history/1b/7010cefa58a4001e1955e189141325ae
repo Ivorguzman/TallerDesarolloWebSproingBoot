@@ -1,0 +1,51 @@
+package com.simulacionBaseDatos.controller;
+
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import model.Persona;
+
+
+
+@Controller
+@RequestMapping("/")
+public class MetodosController {
+
+
+
+
+	private String a = "Ivor Alexander";
+	private int b = 12345678;
+
+	// persona 1
+
+	@GetMapping("/persona1")
+	public String Perosna1(Model persona) {
+		persona.addAttribute("persona", persona)
+		return null;
+		
+	}
+
+
+
+
+
+
+	// persona 2
+	/*
+	 * @GetMapping("/persona") //
+	 * public String Persona() {
+	 * 
+	 * ModelAndView persona1= new ModelAndView("persona");
+	 * persona1.addAttribute("nombre", "Ivor Alexander");
+	 * persona1.addAttribute("telefono", 12345678);
+	 * return "persona";
+	 * 
+	 * }
+	 */
+
+}

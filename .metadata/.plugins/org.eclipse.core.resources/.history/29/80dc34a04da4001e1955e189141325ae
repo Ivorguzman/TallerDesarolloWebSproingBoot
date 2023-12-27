@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hola desde el metodo 4 de la vista 4</title>
+</head>
+<body>
+<h1>Hola desde el metodo 4 de la vista 4</h1>
+<h2><span th:text ="${nombre}"> </span></h2>
+
+</body>
+</html>

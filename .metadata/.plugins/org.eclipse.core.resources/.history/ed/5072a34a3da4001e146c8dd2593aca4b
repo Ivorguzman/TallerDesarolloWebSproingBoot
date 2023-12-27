@@ -1,0 +1,17 @@
+package com.sprinBoot.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller// Indicamos esta clase como controlador
+@RequestMapping("/")// Carga la clase con localhost:8080
+public class MetodosController {
+	
+	
+// metodo 1
+	public String Metodo1 (){
+	
+	
+	{
+
+}

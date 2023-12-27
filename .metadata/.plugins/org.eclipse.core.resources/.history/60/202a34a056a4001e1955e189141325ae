@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Solicitado datos desde el metodo persona de la vista peresona</h1>
+<h2> Nombre: <span  th:text="${nombre.persona}"></span></h2>
+<h2> Telefono: <span  th:text="${nombre.telefono}"></span></h2>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hola desde el metodo 2 de la vista 2</title>
+</head>
+<body>
+<h1>Hola desde el metodo 2 de la vista 2</h1>
+<h2><span th:text ="${nombre}"> </span></h2>
+</body>
+</html>
