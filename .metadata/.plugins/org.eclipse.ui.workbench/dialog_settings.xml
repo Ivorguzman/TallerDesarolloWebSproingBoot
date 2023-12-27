@@ -2,9 +2,9 @@
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialog">
 		<item key="DIALOG_X_ORIGIN" value="588"/>
-		<item key="DIALOG_Y_ORIGIN" value="104"/>
-		<item key="DIALOG_WIDTH" value="855"/>
-		<item key="DIALOG_HEIGHT" value="636"/>
+		<item key="DIALOG_Y_ORIGIN" value="11"/>
+		<item key="DIALOG_WIDTH" value="917"/>
+		<item key="DIALOG_HEIGHT" value="1034"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="PreferencesImportWizard">
@@ -23,6 +23,14 @@
 		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.wst.html.ui.internal.wizard.NewHTMLWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
+	<section name="PreferencesExportWizard">
+		<item key="" value="E:\Recursos de Programacion\apparence_end_ code_style_SpringBoot.epf"/>
+		<item key="WizardPreferencesExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID" value="false"/>
+		<item key="WizardPreferencesExportPage1.EXPORT_ALL_PREFERENCES_ID" value="true"/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="E:\Recursos de Programacion\apparence_end_ code_style_SpringBoot.epf"/>
 		</list>
 	</section>
 </section>
